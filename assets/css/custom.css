@@ -1,0 +1,6 @@
+/* Add here all your css styles (customizations) */
+img.fitsize {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+}
