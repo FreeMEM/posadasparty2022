@@ -4,3 +4,8 @@ img.fitsize {
     height: 200px;
     object-fit: cover;
 }
+
+html {
+	cursor: url('../img/cursors/cursor_wait.cur'), progress;
+	cursor: url('../img/cursors/cursor.cur'), auto;
+}
