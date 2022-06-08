@@ -9,3 +9,7 @@ html {
 	cursor: url('../img/cursors/cursor_wait.cur'), progress;
 	cursor: url('../img/cursors/cursor.cur'), auto;
 }
+
+.social-network-link {
+	display: inline;
+}
