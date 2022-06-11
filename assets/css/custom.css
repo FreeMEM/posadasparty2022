@@ -13,3 +13,40 @@ html {
 .social-network-link {
 	display: inline;
 }
+
+/* un poco de padding para el logo principal */
+section#home .img-fluid {
+    padding: 20px;
+}
+
+div#calendario {
+    margin-top: 120px;
+}
+
+@media (max-width: 767px) {
+    div#calendario ul.nav {
+        display: block !important;
+    }
+
+    div#calendario a.js-tabs-mobile-control {
+        display: none;
+    }
+
+    div#calendario ul.nav li {
+        width: 100%;
+        padding-bottom: 2px;
+        margin: 0px;
+    }
+
+    div#calendario ul.nav li a {
+        padding: 10px 0px 8px 0px;
+    }
+
+    [data-tabs-mobile-type="slide-up-down"].u-nav-primary .nav-link.active {
+        color: #f73859 !important;
+    }
+
+    div#calendario #days {
+        margin-top: 40px;
+    }
+}
