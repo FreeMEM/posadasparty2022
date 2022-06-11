@@ -14,13 +14,23 @@ html {
 	display: inline;
 }
 
+@media (max-width: 767px) {
+    ul#js-scroll-nav {
+        font-size: 15px !important;
+    }
+}
+
 /* un poco de padding para el logo principal */
 section#home .img-fluid {
-    padding: 20px;
+    padding: 60px 20px 20px 20px;
 }
 
 div#calendario {
     margin-top: 120px;
+}
+
+section#schedule {
+    margin-bottom: 60px !important;
 }
 
 @media (max-width: 767px) {
