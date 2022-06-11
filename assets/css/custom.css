@@ -50,3 +50,11 @@ div#calendario {
         margin-top: 40px;
     }
 }
+
+/* eliminar oscurecimiento de imágenes en calendario */
+div#calendario .g-bg-darkblue-opacity-0_7--after::after {
+    background-color: transparent !important;
+}
+div#calendario .g-bg-darkblue-opacity-0_7--after:after {
+    background-color: transparent !important;
+}
