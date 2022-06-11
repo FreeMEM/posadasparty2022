@@ -58,3 +58,17 @@ div#calendario .g-bg-darkblue-opacity-0_7--after::after {
 div#calendario .g-bg-darkblue-opacity-0_7--after:after {
     background-color: transparent !important;
 }
+
+/* texto sin justificación */
+.text-justify {
+    text-align: left !important;
+}
+
+/* texto en pie con suficiente padding */
+footer .u-bg-overlay__inner.g-width-780.mx-auto {
+    padding: 0px 30px;
+}
+
+footer #contact {
+    padding-bottom: 50px !important;
+}
