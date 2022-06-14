@@ -38,7 +38,7 @@
 	<link rel="apple-touch-icon-precomposed" href="assets/img/logo/logo_pp2022_180.jpeg"/>
   </head>
 
-  <body>
+  <body id="posadasbody">
     <main>
       <!-- Header v1 -->
       <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance g-z-index-9999"
@@ -90,6 +90,12 @@
                   </li>
                   <li class="nav-item g-ml-15--lg">
                     <a href="#contact" class="nav-link p-0">Contacto</a>
+                  </li>
+                  <li class="nav-item g-ml-15--lg" id="translate2english">
+                    <a href="https://posadasparty-com.translate.goog/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp" class="nav-link p-0">ENGLISH</a>
+                  </li>
+                  <li class="nav-item g-ml-15--lg" id="translate2spanish" style="display:none">
+                    <a href="https://posadasparty.com" class="nav-link p-0">ESPAÑOL</a>
                   </li>
                 </ul>
               </div>
@@ -1814,6 +1820,16 @@
 		if (language!='es-ES') alert('español'); /* https://translate.google.com/?sl=es&tl=en&text=https%3A%2F%2Fposadasparty.freemem.space%2F%23home&op=translate */
 	</script>
 -->
+	<script>
+		if ($('#gt-nvframe') != null && $('#gt-nvframe') != 'undefined') {
+			$('#translate2spanish').hide();
+			$('#translate2english').show();
+		} else {
+			$('#translate2spanish').show();
+			$('#translate2english').hide();
+		}
+	</script>
+
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtt1z99GtrHZt_IcnK-wryNsQ30A112J0&callback=initMap" async></script>
   </body>
 </html>

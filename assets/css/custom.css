@@ -82,3 +82,7 @@ footer .u-bg-overlay__inner.g-width-780.mx-auto {
 footer #contact {
     padding-bottom: 50px !important;
 }
+
+.gt-nvframe{visibility:hidden !important;}
+.goog-te-banner-frame{visibility:hidden !important;}
+body#posadasbody{top:0px !important;}
