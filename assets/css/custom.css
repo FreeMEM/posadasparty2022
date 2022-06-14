@@ -83,6 +83,6 @@ footer #contact {
     padding-bottom: 50px !important;
 }
 
-.gt-nvframe{visibility:hidden !important;}
-.goog-te-banner-frame{visibility:hidden !important;}
+.gt-nvframe{display:none !important;}
+.goog-te-banner-frame{display:none !important;}
 body#posadasbody{top:0px !important;}
